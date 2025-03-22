@@ -1,4 +1,4 @@
-'''****************************DATASET FOR FIND S***************************'''
+'''****************************DATASET FOR Cndidatelimination***************************'''
 Sunny,Warm,Normal,Strong,Warm,Same,Yes
 Sunny,Warm,High,Strong,Warm,Same,Yes
 Rainy,Cold,High,Strong,Warm,Change,No
@@ -55,6 +55,9 @@ for i in range(0,len(a)):
 
 
 '''*********************** OUTPUT *************************************'''
+
+
+
 ['Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same', 'Yes']
 ['Sunny', 'Warm', 'High', 'Strong', 'Warm', 'Same', 'Yes']
 ['Rainy', 'Cold', 'High', 'Strong', 'Warm', 'Change', 'No']
