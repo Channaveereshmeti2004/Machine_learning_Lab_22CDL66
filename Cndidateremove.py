@@ -1,3 +1,13 @@
+'''****************************DATASET FOR FIND S***************************'''
+Sunny,Warm,Normal,Strong,Warm,Same,Yes
+Sunny,Warm,High,Strong,Warm,Same,Yes
+Rainy,Cold,High,Strong,Warm,Change,No
+Sunny,Warm,High,Strong,Cool,Change,Yes
+
+
+
+'''****************************      PROGRAM     ***************************'''
+
 import csv
 a=[]
 csvfile=open('1.csv','r') 
@@ -40,6 +50,8 @@ for i in range(0,len(a)):
               G=['?']*num_attributes
        print("For instance {0} the hypothesis is S{0}".format(i+1),S) 
        print("For instance {0} the hypothesis is G{0}".format(i+1),temp)
+
+
 
 
 '''*********************** OUTPUT *************************************'''
